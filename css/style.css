@@ -1,9 +1,8 @@
 body{
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     min-height:940px;
+    margin: auto;
 }
-
-
 /*Media queries*/
 
 /*--Mobile first--*/
@@ -22,6 +21,7 @@ body{
   flex-direction:row;
   justify-content: space-between;
   padding-bottom: 10px;
+  max-width:1920px;
 }
 .logo h1{
   font-family: Pacifico,cursive;
@@ -42,7 +42,7 @@ body{
   text-decoration: none;
   color: white;
 }
-/*Main*/
+/*Main Index*/
  .main{
   display: flex;
   flex-direction: column;
@@ -68,6 +68,22 @@ body{
   font-size: 20px;
   margin: 5px;
 }
+/*Content About*/
+.content-wrapper{
+  max-width: 960px;
+  margin: auto;
+}
+.welcome > img{
+    width: 450px;
+    height: auto;
+}
+
+.item-about{
+  display: flex;
+  flex-direction: row;
+}
+.
+/*Content Work*/
 .footer{
 
 }
