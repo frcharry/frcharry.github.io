@@ -131,6 +131,37 @@ body{
   font-family: fantasy;
   color: #ffffff;
 }
+/*Content contact*/
+.contacto{
+  display: flex;
+  flex-direction: row;
+  background-image: url("../images/undraw_email_capture_x8kv.svg");
+  background-size: 400px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  max-width: 960px;
+  margin: auto;
+}
+.contact-info{
+  width: 47%;
+}
+.vertical{
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    margin-left: 10px;
+    height:         400px;
+    width:          1px;
+}
+.contact-form{
+  width: 47%;
+  margin: auto;
+}
 .footer{
 
 }
